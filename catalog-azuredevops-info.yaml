@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: azuredevops
   annotations:
-    dev.azure.com/project-repo: AlmaBackstage/AlmaBackstage
+    'dev.azure.com/project-repo': 'AlmaBackstage/AlmaBackstage'
 spec:
   type: service
   lifecycle: production
