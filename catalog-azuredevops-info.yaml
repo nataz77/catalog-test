@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # ...
+  annotations:
+    dev.azure.com/project-repo: my-project/my-repo
+spec:
+  type: service
+  # ...
+  
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azuredevops
+  annotations:
+    dev.azure.com/project-repo: AlmaBackstage/AlmaBackstage
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
