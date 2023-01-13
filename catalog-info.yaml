@@ -7,6 +7,7 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     backstage.io/kubernetes-id: dice-roller
+    'backstage.io/kubernetes-namespace': backstage-system
   tags:
     - java
   links:
