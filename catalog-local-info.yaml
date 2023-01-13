@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: my-kubernetes-component
   annotations:
-    backstage.io/kubernetes-id: dice-roller
+    backstage.io/kubernetes-id: my-kubernetes-component
     backstage.io/kubernetes-namespace: default
 spec:
   lifecycle: production
